@@ -55,10 +55,9 @@ body {
 
 .lds-hourglass {
   position: absolute;
-  top: 50%;
+  top: 30px;
   left: 50%;
-  right: -50%;
-  bottom: -50%;
+  margin-left: -50px;
   width: 100px;
   height: 100px;
   display: none;
@@ -175,20 +174,6 @@ body {
 }
 
 .forCheck input[type="checkbox"]:checked ~ .unchecked {
-  display: none;
-}
-
-.container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  background: chartreuse;
-  position: absolute;
-  top: 40%;
-  left: 40%;
   display: none;
 }
 /*# sourceMappingURL=style.css.map */

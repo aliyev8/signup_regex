@@ -76,11 +76,11 @@ body {
 
 
 .lds-hourglass {
+
     position: absolute;
-    top: 50%;
+    top: 30px;
     left: 50%;
-    right: -50%;
-    bottom: -50%;
+    margin-left: -50px;
     width: 100px;
     height: 100px;
     display: none;
