@@ -176,4 +176,21 @@ body {
 .forCheck input[type="checkbox"]:checked ~ .unchecked {
   display: none;
 }
+
+@media (max-width: 990px) {
+  body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    height: 100vh;
+  }
+  body .formGroup {
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    background: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
