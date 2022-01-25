@@ -222,14 +222,44 @@ body {
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         height: 100vh;
 
+        .signUp {
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            margin-bottom: 1rem;
+
+        }
+
+        .formText {
+            margin-bottom: 4rem;
+
+        }
+
 
     }
 
-    body .formGroup {
-        position: relative;
-        height: 2rem;
-        margin-bottom: 1rem;
+
+
+}
+
+@media(max-width:550px) {
+    body {
+        font-family: Montserrat, sans-serif;
+        font-weight: 300;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        height: 100vh;
+
+        .signUp {
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            margin-bottom: 0.3rem;
+
+        }
+
+        .formText {
+            margin-bottom: 0.3rem;
+
+        }
+
 
     }
-
 }
