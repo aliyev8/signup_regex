@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <div id="container" class="container">
+
+        <form action="" class="form">
+
+            <h1 class="signUp">Sign Up</h1>
+            <p class="formText">Please fill in this forn to create an account!</p>
+
+
+            <div class="formGroup"><input type="text" id="username" placeholder=" " class="formInput">
+                <label class="formLabel" for="username">username</label></div>
+            <p id="userNameErr" class="regexErr">this username is not valid</p>
+
+
+            <div class="formGroup"><input type="email" id="email" placeholder=" " class="formInput">
+                <label class="formLabel" for="email_in">email</label></div>
+            <p id="emailErr" class="regexErr">this email is not valid</p>
+
+
+            <div class="formGroup"> <input type="password" id="password" placeholder=" " class="formInput">
+
+                <label class="forCheck" for="checkBox"><input id="checkBox" type="checkbox" class="check"><i
+                        class="far fa-eye unchecked"></i> <i class="far fa-eye-slash checked"></i> </label>
+
+                <label class="formLabel" for="password">password</label></div>
+            <p id="passwordErr" class="regexErr">this password is not valid</p>
+
+            <div class="formGroup"><input type="password" id="password2" placeholder=" " class="formInput">
+                <label class="formLabel" for="password2">confirm password</label></div>
+            <p id="password2Err" class="regexErr">Passwords did not match</p>
+            <button class="btn">Submit</button>
+
+    </div>
+    </form>
+
+    <div class="lds-hourglass"></div>
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
